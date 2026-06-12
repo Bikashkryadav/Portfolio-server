@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI ;
 
 app.use(cors({
-    origin: ["http://localhost:3000", "http://localhost:5173","https://portfolio-p2hd.onrender.com"],
+    origin: ["http://localhost:3000", "http://localhost:5173","https://portfolio-h7cv.onrender.com/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
